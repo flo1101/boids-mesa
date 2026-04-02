@@ -2,7 +2,7 @@ from mesa import Model
 from mesa.space import ContinuousSpace
 import numpy as np
 
-from boid import Boid
+from app.core.boid import Boid
 
 
 class BoidsModel(Model):
